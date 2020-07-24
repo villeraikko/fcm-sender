@@ -1,0 +1,36 @@
+{
+  "name": "fcm-sender",
+  "version": "1.0.0",
+  "description": "Firebase Cloud Messaging sender",
+  "main": "bin/index.js",
+  "bin": {
+    "fcm-sender": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/villeraikko/fcm-sender.git"
+  },
+  "keywords": [
+    "Firebase",
+    "FCM"
+  ],
+  "author": "Ville Raikko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/villeraikko/fcm-sender/issues"
+  },
+  "homepage": "https://github.com/villeraikko/fcm-sender#readme",
+  "dependencies": {
+    "commander": "^6.0.0",
+    "firebase-admin": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/commander": "^2.12.2",
+    "@types/node": "^14.0.25",
+    "typescript": "^3.9.7"
+  }
+}
