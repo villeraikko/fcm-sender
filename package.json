@@ -1,6 +1,6 @@
 {
   "name": "fcm-sender",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Firebase Cloud Messaging sender",
   "main": "bin/index.js",
   "bin": {
