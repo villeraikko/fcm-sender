@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "sourceMap": false,
+    "outDir": "bin",
+    "allowJs": true,
+    "types": [
+        "node"
+     ],
+     "typeRoots": [
+        "node_modules/@types"
+      ]
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
